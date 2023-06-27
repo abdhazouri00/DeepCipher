@@ -168,7 +168,8 @@ a:focus {
 }
 
 .slider_section .slider_container {
-  background-image: url(../images/slider-bg.jpg);
+  /* background-image: url(../images/slider-bg.jpg); */
+  background-color: rgb(43, 39, 39);
   background-size: cover;
   color: #ffffff;
   padding: 25px 0;
@@ -275,6 +276,128 @@ a:focus {
 }
 
 .slider_section .carousel_btn-box .carousel-control-next {
+  background-image: url(../images/next.png);
+}
+
+
+
+
+
+.main_section {
+  padding: 0 5%;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.main_section .main_container {
+  background-image: url(../images/slider-bg.jpg);
+  background-size: cover;
+  color: #ffffff;
+  padding: 25px 0;
+  margin-bottom: 120px;
+}
+
+.main_section .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main_section .img-box img {
+  width: 100%;
+}
+
+.main_section .detail-box {
+  width: 75%;
+  padding-left: 45px;
+  text-align: right;
+}
+
+.main_section .detail-box h1 {
+  font-weight: bold;
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
+.main_section .detail-box a {
+  display: inline-block;
+  padding: 10px 45px;
+  background-color: #ffffff;
+  color: #000000;
+  border: 1.5px solid #ffffff;
+  border-radius: 5px;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+
+.main_section .detail-box a:hover {
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.main_section .carousel-indicators {
+  margin: 0;
+  width: auto;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  bottom: initial;
+  top: 0;
+  left: initial;
+  right: -25px;
+}
+
+.main_section .carousel-indicators li {
+  text-indent: 0;
+  background-color: transparent;
+  opacity: 1;
+  border: none;
+  font-size: 7rem;
+  font-weight: bold;
+  width: auto;
+  height: auto;
+  display: none;
+  color: #1b1b1b;
+}
+
+.main_section .carousel-indicators li.active {
+  display: block;
+}
+
+.main_section .carousel_btn-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ffffff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  bottom: -25px;
+  right: 10%;
+  padding: 7px 10px;
+  border-radius: 5px 5px 0 0;
+}
+
+.main_section .carousel_btn-box img {
+  margin: 0 10px;
+}
+
+.main_section .carousel_btn-box .carousel-control-prev,
+.main_section .carousel_btn-box .carousel-control-next {
+  position: unset;
+  height: 25px;
+  width: 25px;
+  background-repeat: no-repeat;
+  opacity: 1;
+  background-position: center;
+}
+
+.main_section .carousel_btn-box .carousel-control-prev {
+  background-image: url(../images/prev.png);
+}
+
+.main_section .carousel_btn-box .carousel-control-next {
   background-image: url(../images/next.png);
 }
 
@@ -604,7 +727,7 @@ a:focus {
   }
 } */
 
-.logo_section .owl-carousel {
+/* .logo_section .owl-carousel {
   position: unset;
   width: 90%;
   margin: auto;
@@ -641,7 +764,129 @@ a:focus {
 
 .logo_section .owl-carousel .owl-dots {
   display: none;
+} */
+
+
+.sample_section {
+  padding: 0 25%;
+  margin-top: 20px;
+  width: 100%;
 }
+
+.sample_section .slider_container {
+  background-image: url(../images/slider-bg.jpg);
+  background-size: cover;
+  color: #ffffff;
+  padding: 25px 0;
+}
+
+.sample_section .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sample_section .img-box img {
+  width: 100%;
+  height: 50vh;
+}
+
+/* ._section .detail-box {
+  width: 75%;
+  padding-left: 45px;
+  text-align: right;
+} */
+
+/* ._section .detail-box h1 {
+  font-weight: bold;
+  font-size: 4rem;
+  text-transform: uppercase;
+} */
+
+/* ._section .detail-box a {
+  display: inline-block;
+  padding: 10px 45px;
+  background-color: #ffffff;
+  color: #000000;
+  border: 1.5px solid #ffffff;
+  border-radius: 5px;
+  margin-top: 25px;
+  text-transform: uppercase;
+} */
+
+/* ._section .detail-box a:hover {
+  background-color: transparent;
+  color: #ffffff;
+} */
+
+.sample_section .carousel-indicators {
+  margin: 0;
+  width: auto;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  bottom: initial;
+  top: 0;
+  left: initial;
+  right: -25px;
+}
+
+.sample_section .carousel-indicators li {
+  text-indent: 0;
+  background-color: transparent;
+  opacity: 1;
+  border: none;
+  font-size: 7rem;
+  font-weight: bold;
+  width: auto;
+  height: auto;
+  display: none;
+  color: #1b1b1b;
+}
+
+.sample_section .carousel-indicators li.active {
+  display: block;
+}
+
+.sample_section .carousel_btn-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ffffff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  bottom: -25px;
+  right: 10%;
+  padding: 7px 10px;
+  border-radius: 5px 5px 0 0;
+}
+
+.sample_section .carousel_btn-box img {
+  margin: 0 10px;
+}
+
+.sample_section .carousel_btn-box .carousel-control-prev,
+.sample_section .carousel_btn-box .carousel-control-next {
+  position: unset;
+  height: 25px;
+  width: 25px;
+  background-repeat: no-repeat;
+  opacity: 1;
+  background-position: center;
+}
+
+.sample_section .carousel_btn-box .carousel-control-prev {
+  background-image: url(../images/prev.png);
+}
+
+.sample_section .carousel_btn-box .carousel-control-next {
+  background-image: url(../images/next.png);
+}
+
+
+
 
 .started_section .row {
   -webkit-box-align: center;
@@ -889,6 +1134,7 @@ a:focus {
   background-color: #2d2d2d;
   color: #ffffff;
   margin: 0 45px 45px;
+  text-align: right;
 }
 
 .info_section .social_container {
@@ -915,6 +1161,25 @@ a:focus {
   margin: 0 10px;
 }
 
+/* mine */
+
+
+  .info_container .container .row{
+
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+
+  .info_link-box{
+
+    display: flex;
+    flex-direction: column;
+  }
+
+
+/* mine */
+
 .info_section .row > div {
   margin-top: 25px;
 }
@@ -938,6 +1203,7 @@ a:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-direction: row-reverse;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -950,7 +1216,7 @@ a:focus {
 
 .info_section .info_link-box a img {
   width: 50px;
-  margin-right: 15px;
+  margin-left: 15px;
 }
 
 .info_section .info_link-box a span {
