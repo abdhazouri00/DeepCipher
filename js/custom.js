@@ -27,3 +27,17 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+
+
+
+
+// Add a class to the input when it is focused
+document.querySelector('input').addEventListener('focus', function() {
+    this.classList.add('english-input');
+  });
+  
+  // Remove the class when the input loses focus
+  document.querySelector('input').addEventListener('blur', function() {
+    this.classList.remove('english-input');
+  });
+  
